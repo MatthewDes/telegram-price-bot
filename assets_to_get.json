@@ -1,0 +1,5 @@
+{
+   "crypto": ["bitcoin","ethereum"],
+   "stocks": ["AAPL", "STXRES.JO"],  
+   "commodities": ["GC=F"]
+}
