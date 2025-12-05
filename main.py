@@ -79,9 +79,6 @@ def build_message():
 
     return "\n".join(lines)
     
-
-
-
 def send_telegram(text):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {"chat_id": TELEGRAM_CHAT_ID, "text": text}
@@ -94,7 +91,13 @@ send_telegram(build_message())
 
 
 
-
+"""
+To do
+update yfinance to potentially use info isntead of history - may be more simple
+update yfinance to use name isntead of ticker
+add good morning message at begining with datetime
+create workflow for git action
+"""
 
 
  
